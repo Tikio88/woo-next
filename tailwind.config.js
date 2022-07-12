@@ -8,6 +8,15 @@ module.exports = {
     './src/components/**/*.js',
     './pages/**/*.js'],
   theme: {
+    colors:{
+      'transparent': 'transparent',
+      'current': 'currentColor',
+      'white': '#ece6e2',
+      'light-brown': '#bdafa6',
+      'forest-green': '#808f7c',
+      'black': 'black',
+      'white': 'white'
+    },
     extend: {
       height: {
         'almost-screen': 'calc(-16rem + 100vh)',

@@ -113,7 +113,7 @@ const CartItemsContainer = () => {
 						<h1 className="text-2xl mb-5 uppercase">Cart</h1>
 						{/*Clear entire cart*/}
 						<div className="clear-cart text-right">
-							<button className="px-4 py-1 bg-gray-500 text-white rounded-sm w-auto" onClick={ ( event ) => handleClearCart( event ) } disabled={ clearCartProcessing }>
+							<button className="px-4 py-1 bg-light-brown text-black rounded-sm w-auto" onClick={ ( event ) => handleClearCart( event ) } disabled={ clearCartProcessing }>
 								<span className="woo-next-cart">Clear Cart</span>
 								<i className="fa fa-arrow-alt-right"/>
 							</button>
@@ -166,7 +166,7 @@ const CartItemsContainer = () => {
 									</tbody>
 								</table>
 								<Link href="/checkout">
-									<button className="bg-purple-600 text-white px-5 py-3 rounded-sm w-auto xl:w-full">
+									<button className="bg-forest-green text-white px-5 py-3 rounded-sm w-auto xl:w-full">
 										<span className="woo-next-cart-checkout-txt">Proceed to Checkout</span>
 										<i className="fas fa-long-arrow-alt-right"/>
 									</button>
@@ -182,7 +182,7 @@ const CartItemsContainer = () => {
 				<div className="container mx-auto my-32 px-4 xl:px-0">
 					<h2 className="text-2xl mb-5">No items in the cart</h2>
 					<Link href="/">
-						<button className="bg-purple-600 text-white px-5 py-3 rounded-sm">
+						<button className="bg-forest-green text-white px-5 py-3 rounded-sm">
 							<span className="woo-next-cart-checkout-txt">Add New Products</span>
 							<i className="fas fa-long-arrow-alt-right"/>
 						</button>
