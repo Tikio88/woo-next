@@ -15,7 +15,7 @@ const Footer = () => (
 				<li className="ml-2"><a href="https://www.instagram.com/codeytek_academy/" className="fa fa-instagram" target="_blank"><Instagram fill={"black"} /></a></li>
 			</ul>
 		</div>
-	</div>
+	</div>t
 );
 
 export default Footer;
